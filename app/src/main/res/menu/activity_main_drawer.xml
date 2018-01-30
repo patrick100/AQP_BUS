@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/normal_map"
+            android:icon="@drawable/location"
+            android:title="Mapa Normal" />
+        <item
+            android:id="@+id/hibrid_map"
+            android:icon="@drawable/location"
+            android:title="Mapa Hibrido" />
+        <item
+            android:id="@+id/mylocation"
+            android:icon="@drawable/location"
+            android:title="Mi Ubicacion" />
+        <item
+            android:id="@+id/bus"
+            android:icon="@drawable/location"
+            android:title="Ubicar Bus" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/invite"
+                android:icon="@drawable/location"
+                android:title="Invitar Amigos" />
+        </menu>
+    </item>
+
+</menu>
